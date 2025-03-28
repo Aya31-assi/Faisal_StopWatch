@@ -10,7 +10,7 @@
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="00:00"
+        android:text="@string/textView_text"
         android:textSize="48sp"
         android:textStyle="bold"
         android:layout_marginBottom="30dp"/>
@@ -19,14 +19,14 @@
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start"
+        android:text="@string/start_button"
         android:layout_marginBottom="10dp"/>
 
     <Button
         android:id="@+id/btnStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop"
+        android:text="@string/stop_button"
         android:layout_marginBottom="10dp"
         android:enabled="false"/>
 
@@ -34,6 +34,6 @@
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Reset"
+        android:text="@string/reset_button"
         android:enabled="false"/>
 </LinearLayout>
